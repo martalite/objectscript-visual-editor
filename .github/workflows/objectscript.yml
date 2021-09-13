@@ -12,4 +12,4 @@ jobs:
         JENKINS_OBJECTSCRIPTQUALITY_USER: hook
         JENKINS_OBJECTSCRIPTQUALITY_PASSWORD: ${{ secrets.jenkinsPass }}
         JENKINS_OBJECTSCRIPTQUALITY_TRIGGER_ACCESS_TOKEN: ${{ secrets.jobToken }}
-      run: wget https://raw.githubusercontent.com/litesolutions/objectscriptquality-jenkins-integration/master/hook.sh && sh ./hook.sh
+      run: wget https://raw.githubusercontent.com/litesolutions/objectscriptquality-jenkins-integration/master/iris-community-hook.sh && sh ./iris-community-hook.sh
